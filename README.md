@@ -20,7 +20,8 @@ A few steps are included in this part:
 2. Download this repo/ProcessData on https://github.com/NantonZZZ/YOLOv3_GTSDB/tree/master/ProcessData and drag all the files to the above folder 'FullIJCNN2013'
 3. Go to folder 'FullIJCNN2013'. Since we will use python scripts to process data, install the required libriries: ```pip3 install -r requirements.txt```
 4. Run ```python3 resizeImg.py``` and ```python3 label.py```. There will be two new folders 'train' and 'test' in 'FullIJCNN2013', each of which contains resized jpg images and their corresponding ground-truth labels for training and test. Details will be found in comments in these python files.
-5. Finally, we can zip 'train' and 'test' folders to get two zip files. Other required files are ready in this repo. Explanation and requirements could be found here: https://github.com/AlexeyAB/darknet
+5. (optional) Run ```python3 anchorBox.py``` to generate nine anchor boxes for the YOYOv3 network. The results are already written to yolov3.cfg
+6. Finally, we can zip 'train' and 'test' folders to get two zip files. Other required files are ready in this repo. Explanation and requirements could be found here: https://github.com/AlexeyAB/darknet
 
 Now, we are ready for training!
 
