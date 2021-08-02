@@ -27,4 +27,8 @@ Now, we are ready for training!
 
 ## Part 2: Detector Training
 
-In this part, training will be done in **Colab** which provides online GPU resources. Before we go there, we have to upload the two zip files obtained in **Part 1** to our own google drive, which our Colab could get easy access to. Now, let's go--><a href="https://colab.research.google.com/drive/1hGvWJCLaSg6j4KQLbXoQrWwKnhv0FgZE?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+In this part, training is recommended to be done in **Colab** which provides online GPU resources. Before we go there, we have to upload the two zip files obtained in **Part 1** to our own google drive, which our Colab could get easy access to. Now, let's go--><a href="https://colab.research.google.com/drive/1hGvWJCLaSg6j4KQLbXoQrWwKnhv0FgZE?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+Besides, you can also download the jyputer notebook from **Colab** and run it in your local environment or write your own scripts following the steps. 
+
+Some tips: if you want to validate your model or do some testing, you can goto darknet/src/detector.c to be familiar with other supported commands and could refer to https://github.com/AlexeyAB/darknet for more details.
