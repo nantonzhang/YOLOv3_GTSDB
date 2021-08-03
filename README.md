@@ -16,6 +16,8 @@ In this part, data is processed to form the dataset for further network training
 
 A few steps are included in this part:
 
+**Updata:** You can follow step one and two, then run the bash scripts in ProcessData, which will automatically do the following steps for you. Before you run the scripts, you may need to type ```chmod +x dataProcess.sh```
+
 1. Download the full raw data from https://benchmark.ini.rub.de/gtsdb_dataset.html and unzip it in your PC. You will get a folder named as 'FullIJCNN2013'
 2. Download this repo/ProcessData on https://github.com/NantonZZZ/YOLOv3_GTSDB/tree/master/ProcessData and drag all the files to the above folder 'FullIJCNN2013'
 3. Go to folder 'FullIJCNN2013'. Since we will use python scripts to process data, install the required libriries: ```pip3 install -r requirements.txt```
