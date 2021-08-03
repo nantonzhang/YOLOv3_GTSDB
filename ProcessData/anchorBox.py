@@ -187,4 +187,4 @@ y = [x.h for x in centroids]
 # sns.jointplot(x="b_w", y="b_h", data=sns_data)
 # plt.scatter(x, y, color = "red", marker = "*")
 # sns.scatterplot( x="b_w", y="b_h",data=scatter)
-plt.show()
+#plt.show()

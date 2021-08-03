@@ -36,9 +36,13 @@ for i in range(900):
 	# (1280, 763) is the new size for YOLO training
 
 	if i < 600:
-		img_path = train+'/'+img_name[:-3]+'jpg'
+		img_path = 'train/'+img_name[:-3]+'jpg'
+		with open('train.txt', 'a+') as f:
+			f.write('train/'+img_name[:-3]+'jpg\n')
 	else:
-		img_path = test+'/'+img_name[:-3]+'jpg'
+		img_path = 'test/'+img_name[:-3]+'jpg'
+		with open('test.txt', 'a+') as f:
+			f.write('test/'+img_name[:-3]+'jpg\n')
 	# According to the data intro, 600 pics are for training
 	# The rest is for test
 
