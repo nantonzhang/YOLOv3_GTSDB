@@ -25,6 +25,10 @@ A few steps are included in this part:
 5. (optional) Run ```python3 anchorBox.py``` to generate nine anchor boxes for the YOYOv3 network. The results are already written to yolov3.cfg
 6. Finally, we can zip 'train' and 'test' folders to get two zip files. Other required files are ready in this repo. Explanation and requirements could be found here: https://github.com/AlexeyAB/darknet
 
+Also, the two required zip files are available here:   
+https://drive.google.com/file/d/1OEWzktLtigv2WPDjGkN0bzSIfBOZK8-q/view?usp=sharing  
+https://drive.google.com/file/d/1MIgHVIPv0cZVmB-bwc-YQ8OMNUi7n2nG/view?usp=sharing
+
 Now, we are ready for training!
 
 ## Part 2: Detector Training
